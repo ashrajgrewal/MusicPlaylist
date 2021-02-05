@@ -64,5 +64,3 @@ class Playlist:
       count += 1
       print(f'{count}. {current.get_title()}')
       current = current.get_next_song()
-
-  
